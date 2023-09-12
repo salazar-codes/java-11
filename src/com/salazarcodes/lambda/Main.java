@@ -17,6 +17,7 @@ public class Main {
         };
         System.out.println("The result of the comparator is: " + comparator.compare(3, 2));
 
+        /* Java 11 */
         Comparator<Integer> comparatorLambda = (Integer a, Integer b) -> a.compareTo(b);
         System.out.println("The result of the comparator is: " + comparatorLambda.compare(1, 2));
     }
